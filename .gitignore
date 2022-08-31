@@ -1,0 +1,4 @@
+# IDE
+.idea/
+# generated sources
+target/
