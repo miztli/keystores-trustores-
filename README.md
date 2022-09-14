@@ -37,3 +37,10 @@ curl -v -k https://localhost:8080/greetings
 ```shell
 curl -v --cert-type P12 --cert client.p12:client1234 https://localhost:8080/greetings
 ```
+
+### missing to address
+- How does client match the certificate that needs to send to the service?
+
+### resources
+https://medium.com/ing-tech-romania/a-simple-mtls-guide-for-spring-boot-microservices-c6bfc9878369
+http://www.ccw.sk/en/blog/curl-with-sso-certificates-or-how-to-test-rest-services.html
